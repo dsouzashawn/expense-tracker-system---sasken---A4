@@ -1,4 +1,4 @@
-# 📱 Personal Finance Tracker App (Camera Project)
+# 📱 Personal Finance Tracker App 
 
 This is an Android-based personal finance tracker application that helps users manage their income and expenses with visual insights, personalized advice, and a modern UI/UX experience.
 
