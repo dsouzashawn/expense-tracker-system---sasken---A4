@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Summary Section -->
+    <TextView
+        android:id="@+id/incomeText"
+        android:text="Income: ₹0"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#2E7D32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/expenseText"
+        android:text="Expense: ₹0"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#C62828"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/balanceText"
+        android:text="Balance: ₹0"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#37474F"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Add Transaction Button -->
+    <Button
+        android:id="@+id/addButton"
+        android:text="➕ Add Transaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#008577"
+        android:textColor="@android:color/white"
+        android:contentDescription="Add new transaction" />
+
+    <!-- View Chart Button -->
+    <Button
+        android:id="@+id/chartButton"
+        android:text="📊 View Expense Chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#6B5B95"
+        android:textColor="@android:color/white"
+        android:contentDescription="View expense chart" />
+
+    <!-- Transaction List Title -->
+    <TextView
+        android:text="Transactions:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- RecyclerView for Transaction List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
