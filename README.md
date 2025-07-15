@@ -38,6 +38,21 @@ This is an Android-based personal finance tracker application that helps users m
   - Monthly Balance (Income - Expense)
 - Button added in `MainActivity` to view graphs using MPAndroidChart.
 
+“income vs expense statement chart” button 
+When you click on that button you must get another button select year with a back button below it to transition back to previous page.
+Then once you click the year button then give two more button "january to june statement chart” “june to july statement chart” and once you select a duration button you just  see a graph with the y axis with amounts in rupees like 2500,5000,75000,25,000,50000,75,000 upto 1.5 lakhs and on x axis all the 3 months of the selected duration in order  and then must show the following chart elements 
+📊 Chart Elements:
+🔴 Red Bars:
+ These represent monthly expenses
+Taller red bars indicate higher expenses in that particular month.
+🔵 Blue Bars:
+ These represent monthly income.
+Taller blue bars indicate more income earned in that month.
+🟢 Green Line:
+ This represents the net balance (Income − Expense) for each month.
+When the green line is higher, it means income exceeded expenses (positive balance).
+When the green line dips, it indicates that expenses may have exceeded income (negative balance or lower surplus)
+
 ---
 
 ### 5. 🤖 Chatbot Integration (Advanced)
